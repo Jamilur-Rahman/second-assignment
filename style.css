@@ -1,0 +1,188 @@
+/* shared styles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Header Part Start From Here */
+/* Nav Part Start From Here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 240px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-size: 30px;
+}
+.nav-button{
+    display: flex;
+    align-items: center;
+}
+.nav-button ul{
+    display: flex;
+    align-items: center;
+}
+.nav-button li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.li-icon{
+    display: flex;
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+.icon{
+    margin-left: 20px;
+}
+.icon >img{
+    width: 50px;
+    height: 30px;
+    margin: 0px 5px;
+    border-radius: 30%;
+}
+/* Nav Part Finish Here */
+/* Banner Part Start From Here */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF;
+    background-image: url("images/Group\ 14.png");
+    padding: 50px 240px;
+}
+.banner-image> img{
+    width: 100%;
+    height: 70vh;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.banner-text> p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.btn{
+    margin: 20px 0px;
+    padding: 10px 20px;
+    border-radius: 35%;
+    border: none;
+}
+#sign-in{
+    background-color: chocolate;
+    margin-right: 15px;
+}
+#go-rogue{
+    background-color: blueviolet;
+}
+/* Body Part Start From Here */
+.we-are-gamer{
+    display: flex;
+    padding: 50px 240px;
+}
+.we-are-gamer-text{
+    text-align: end;
+}
+.we-are-gamer-image> img{
+    width: 42vw;
+}
+/* Funny Vedioes*/
+.funny-video{
+    text-align: center;
+    padding: 50px 240px;
+
+}
+.funny-video-image{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+.funny-video-image img{
+    width: 100%;
+}
+/* Play Part */
+.play{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 50px 240px;
+}
+.play-text{
+    text-align: end;
+}
+.sub-image{
+    position: relative;
+    bottom: 175px;
+}
+.play-image> img{
+    width: 85%;
+    margin-left: 70px;
+}
+.sub-image> img{
+    width: 40%;
+}
+/* Game Types */
+.game-types{
+    padding: 50px 240px;
+}
+.cat-one{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-around;
+}
+.cat-two{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+}
+.types{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.types> img{
+    margin-right: 10px;
+}
+/* Footer part */
+.footer{
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    padding: 50px 240px;
+}
+.logo-down{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.option-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+.f-i> img{
+    width: 30px;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
